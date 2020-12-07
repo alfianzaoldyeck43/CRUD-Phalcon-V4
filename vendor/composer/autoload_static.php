@@ -41,6 +41,17 @@ class ComposerStaticInit43d02475804f381a09e5cef7e0566629
         array (
             'Dotenv\\' => 7,
         ),
+        'A' => 
+        array (
+            'Application\\Tests\\' => 18,
+            'Application\\Task\\' => 17,
+            'Application\\Router\\' => 19,
+            'Application\\Provider\\' => 21,
+            'Application\\Models\\' => 19,
+            'Application\\Listener\\' => 21,
+            'Application\\Controllers\\' => 24,
+            'Application\\' => 12,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -83,6 +94,38 @@ class ComposerStaticInit43d02475804f381a09e5cef7e0566629
         'Dotenv\\' => 
         array (
             0 => __DIR__ . '/..' . '/vlucas/phpdotenv/src',
+        ),
+        'Application\\Tests\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/tests',
+        ),
+        'Application\\Task\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/app/task',
+        ),
+        'Application\\Router\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/app/router',
+        ),
+        'Application\\Provider\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/app/provider',
+        ),
+        'Application\\Models\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/app/models',
+        ),
+        'Application\\Listener\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/app/listener',
+        ),
+        'Application\\Controllers\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/app/controllers',
+        ),
+        'Application\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/app/library',
         ),
     );
 

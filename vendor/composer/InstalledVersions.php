@@ -14,60 +14,62 @@ class InstalledVersions
 private static $installed = array (
   'root' => 
   array (
-    'pretty_version' => '1.0.0+no-version-set',
-    'version' => '1.0.0.0',
+    'pretty_version' => 'dev-main',
+    'version' => 'dev-main',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
-    'name' => '__root__',
+    'reference' => 'f3875a6deedb937964556ee304a324278c953fa1',
+    'name' => 'gamalan/phalcon-boilerplate',
   ),
   'versions' => 
   array (
-    '__root__' => 
+    'gamalan/phalcon-boilerplate' => 
     array (
-      'pretty_version' => '1.0.0+no-version-set',
-      'version' => '1.0.0.0',
+      'pretty_version' => 'dev-main',
+      'version' => 'dev-main',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => 'f3875a6deedb937964556ee304a324278c953fa1',
     ),
     'guzzlehttp/guzzle' => 
     array (
-      'pretty_version' => '6.5.5',
-      'version' => '6.5.5.0',
+      'pretty_version' => '6.5.x-dev',
+      'version' => '6.5.9999999.9999999-dev',
       'aliases' => 
       array (
       ),
-      'reference' => '9d4290de1cfd701f38099ef7e183b64b4b7b0c5e',
+      'reference' => 'e8ed4dbf49b260ff129ff0e0400718c3269971bf',
     ),
     'guzzlehttp/promises' => 
     array (
-      'pretty_version' => '1.4.0',
-      'version' => '1.4.0.0',
+      'pretty_version' => 'dev-master',
+      'version' => 'dev-master',
       'aliases' => 
       array (
+        0 => '1.4.x-dev',
       ),
-      'reference' => '60d379c243457e073cff02bc323a2a86cb355631',
+      'reference' => 'ddfeedfff2a52661429437da0702979f708e6ac6',
     ),
     'guzzlehttp/psr7' => 
     array (
-      'pretty_version' => '1.7.0',
-      'version' => '1.7.0.0',
+      'pretty_version' => '1.x-dev',
+      'version' => '1.9999999.9999999.9999999-dev',
       'aliases' => 
       array (
       ),
-      'reference' => '53330f47520498c0ae1f61f7e2c90f55690c06a3',
+      'reference' => '25f7f893f0b52b7b14e244a16679d72b1f0088de',
     ),
     'psr/http-message' => 
     array (
-      'pretty_version' => '1.0.1',
-      'version' => '1.0.1.0',
+      'pretty_version' => 'dev-master',
+      'version' => 'dev-master',
       'aliases' => 
       array (
+        0 => '1.0.x-dev',
       ),
-      'reference' => 'f6561bf28d520154e4b0ec72be95418abe6d9363',
+      'reference' => 'efd67d1dc14a7ef4fc4e518e7dee91c271d524e4',
     ),
     'psr/http-message-implementation' => 
     array (
@@ -87,44 +89,48 @@ private static $installed = array (
     ),
     'symfony/polyfill-ctype' => 
     array (
-      'pretty_version' => 'v1.20.0',
-      'version' => '1.20.0.0',
+      'pretty_version' => 'dev-main',
+      'version' => 'dev-main',
       'aliases' => 
       array (
+        0 => '1.21.x-dev',
       ),
-      'reference' => 'f4ba089a5b6366e453971d3aad5fe8e897b37f41',
+      'reference' => 'fade6deebd931cfd7a544f68479405a6a08979a3',
     ),
     'symfony/polyfill-intl-idn' => 
     array (
-      'pretty_version' => 'v1.20.0',
-      'version' => '1.20.0.0',
+      'pretty_version' => 'dev-main',
+      'version' => 'dev-main',
       'aliases' => 
       array (
+        0 => '1.21.x-dev',
       ),
-      'reference' => '3b75acd829741c768bc8b1f84eb33265e7cc5117',
+      'reference' => '4c489fd2bc812f64494645354e0fb68d355ce3c7',
     ),
     'symfony/polyfill-intl-normalizer' => 
     array (
-      'pretty_version' => 'v1.20.0',
-      'version' => '1.20.0.0',
+      'pretty_version' => 'dev-main',
+      'version' => 'dev-main',
       'aliases' => 
       array (
+        0 => '1.21.x-dev',
       ),
-      'reference' => '727d1096295d807c309fb01a851577302394c897',
+      'reference' => '69609f9f06790591b4b13a45ee117e7bab6395aa',
     ),
     'symfony/polyfill-php72' => 
     array (
-      'pretty_version' => 'v1.20.0',
-      'version' => '1.20.0.0',
+      'pretty_version' => 'dev-main',
+      'version' => 'dev-main',
       'aliases' => 
       array (
+        0 => '1.21.x-dev',
       ),
-      'reference' => 'cede45fcdfabdd6043b3592e83678e42ec69e930',
+      'reference' => '4a4465f57b476085b62e74087f74ae2e753ff633',
     ),
     'symfony/var-dumper' => 
     array (
-      'pretty_version' => 'v2.7.51',
-      'version' => '2.7.51.0',
+      'pretty_version' => '2.7.x-dev',
+      'version' => '2.7.9999999.9999999-dev',
       'aliases' => 
       array (
       ),
@@ -132,12 +138,12 @@ private static $installed = array (
     ),
     'vlucas/phpdotenv' => 
     array (
-      'pretty_version' => 'v2.6.6',
-      'version' => '2.6.6.0',
+      'pretty_version' => '2.6.x-dev',
+      'version' => '2.6.9999999.9999999-dev',
       'aliases' => 
       array (
       ),
-      'reference' => 'e1d57f62db3db00d9139078cbedf262280701479',
+      'reference' => '692830c3c9b918b39668af01e7371b8219df5002',
     ),
   ),
 );

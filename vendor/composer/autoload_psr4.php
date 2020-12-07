@@ -16,4 +16,12 @@ return array(
     'GuzzleHttp\\Promise\\' => array($vendorDir . '/guzzlehttp/promises/src'),
     'GuzzleHttp\\' => array($vendorDir . '/guzzlehttp/guzzle/src'),
     'Dotenv\\' => array($vendorDir . '/vlucas/phpdotenv/src'),
+    'Application\\Tests\\' => array($baseDir . '/tests'),
+    'Application\\Task\\' => array($baseDir . '/app/task'),
+    'Application\\Router\\' => array($baseDir . '/app/router'),
+    'Application\\Provider\\' => array($baseDir . '/app/provider'),
+    'Application\\Models\\' => array($baseDir . '/app/models'),
+    'Application\\Listener\\' => array($baseDir . '/app/listener'),
+    'Application\\Controllers\\' => array($baseDir . '/app/controllers'),
+    'Application\\' => array($baseDir . '/app/library'),
 );
